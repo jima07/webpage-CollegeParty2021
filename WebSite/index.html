@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <title>Festa no Iscte</title>
+
+    <style>
+
+        body  {
+            font-family: Arial, Helvetica, sans-serif;
+            text-align: center;   
+        }
+
+        .titulos, #visitasite  {
+            font-family: OCR A Std, monospace;
+            color: #0040FF;
+        }
+
+
+        .atrac {
+            font-family: OCR A Std, monospace;    
+        }
+        
+        #visitasite {
+            text-decoration: none;
+            background-color: white;
+            padding: 10px;
+            border: 1px solid #0040FF;
+            border-radius: 20px;
+             
+        }
+
+        #visitasite:hover {
+            text-decoration: none;
+            color: white;
+            background-color: #0040FF;
+            padding: 10px;
+            border: 1px solid #0040FF;
+            border-radius: 20px;
+            transition: 0.3s;   
+        }
+
+        dt {
+            padding: 7px;
+        }
+
+        table {
+            background-color: rgb(180, 176, 176);
+            margin-left: auto;
+            margin-right: auto;  
+        }
+
+        table th {
+            background-color: #0040FF;
+            color: white;
+        }
+
+        table td {
+            padding: 10px;
+        }
+
+        form {
+            background-color: rgb(180, 176, 176);
+            padding-top: 10px;
+        }
+
+
+        input {
+        margin: 10px;
+        border-radius: 10px;
+        }
+
+        #submeter {
+            color: white;
+            background-color: #0040FF;
+            border-radius: 10px;
+            cursor: pointer;
+        }
+
+        #ae {
+            position: relative;
+            bottom: 42px;
+        }
+
+    </style>
+    
+
+</head>
+
+<body>
+    
+
+    <a href="https://www.iscte-iul.pt/"><img src="logo_iscte_ver_pt_pos.png" alt="iscte logo" width="300"></a>
+    <h1 class="titulos" style="font-size: 25pt;"><strong>Festa Iscte 2021</strong></h1>
+
+    
+    <img src="img.jpg" alt="Imagem da festa" title="festa iscte" width="500" height="300">
+    <br>
+    <br>
+    <a href="https://www.iscte-iul.pt/" alt="Site do Iscte" id="visitasite" target="_blank"> Site do Iscte </a>
+
+
+    <br>
+    <br>
+    <br>
+    <p>
+    <h2 class="titulos" >Atrações</h2>
+        <dl>
+            <dt> <strong> Palco Principal</strong></li>
+            <dt class="atrac">JulinhoKsd | ProfJam | Wet Bed Gang</dt>
+            <dt><strong>Dj na AE</strong></li>
+            <dt class="atrac">Dj Miranda | Karetus | Dj Tomás</dt>    
+            <dt><strong>Bar no Edifício 2</strong></li>
+            <dt class="atrac">Cerveja | Sidra | Sangria</dt>
+            <img src="chopp.gif" alt="cerveja"> 
+            <span id="ae"><strong>0,20 AE'S</strong></span>
+        </dl>
+    
+
+    <br>
+    <p>
+    <table>
+        <tr>
+        <th>Horário</th>
+        <th>Palco Principal</th>
+        <th>Dj na AE</th>
+        </tr>
+        
+        <tr>
+        <td><strong> 22:00</strong></td>
+        <td class="atrac">JulinhoKsd</td>
+        <td class="atrac">Dj Miranda</td>
+        </tr>
+
+        <tr>
+        <td><strong> 23:00</strong></td>
+        <td class="atrac">ProfJam</td>
+        <td class="atrac">Karetus</td>
+        </tr>
+
+        <tr>
+            <td><strong> 00:00</strong></td>
+            <td class="atrac">Wet Bed Gang</td>
+            <td class="atrac">Dj Tomás</td>
+            </tr>
+    </table>
+    </p>
+
+    <p>
+        <br>
+        <span class="titulos"><strong> Contactos: </strong></span>
+    </p> 
+
+    <p>    
+        Promotor Oficial da Festa 
+        <br>
+        957487678📞
+        <br>
+        <br>
+        Associação de Estudantes  
+        <br> 
+        967546987📞
+
+    </p>
+
+    <p id=form>
+    <form action="submit-form.html">
+        <p style="font-size: 16pt;"><strong>Queres fazer parte da organização?</strong></p>
+        <label for="fname"><strong>Nome Completo:</strong></label>
+        <br>
+        <input type="text" id="fname">
+        <br>
+        <label for="numtel" id="lname"><strong> Número de Telemóvel:</strong></label>
+        <br>
+        <input type="text" id="numtel">
+        <br>
+        <label for="curso" id="curso"><strong>Curso:</strong></label>
+        <br>
+        <input type="curso" id="curso">
+        <br>
+        <label for="email" id="cemail"><strong>Email:</strong></label>
+        <br>
+        <input type="curso" id="curso">
+        <br>
+        <br>
+        <input id="submeter" type="submit" value="Submeter">
+
+    </form>
+</body>
+</html>
